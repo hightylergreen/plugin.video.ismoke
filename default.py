@@ -12,7 +12,6 @@ import os
 import sys
 import plugintools
 import xbmc,xbmcaddon
-from addon.common.addon import Addon
 
 addonID = 'plugin.video.ismoke'
 addon = Addon(addonID, sys.argv)
