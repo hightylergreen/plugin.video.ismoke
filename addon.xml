@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ismoke"
-	name="ismoke Tv"
+	name="ISMOKE Tv"
 	version="1.0.0"
-	provider-name="Lefty420">
-
+	provider-name="Ismoke">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Ismoke's Official Kodi Addon</summary>
-    <description lang="en">Thousands of videos on YouTube.</description>
+    <summary lang="en">Steam Ismoke Content from Kodi</summary>
+    <description lang="en">Watch our videos from Kodi.</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
