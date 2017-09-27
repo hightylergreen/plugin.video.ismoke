@@ -12,24 +12,25 @@ import os
 import sys
 import plugintools
 import xbmc,xbmcaddon
+from addon.common.addon import Addon
 
-addonID = 'plugin.video.ismoke'
+addonID = 'plugin.video.retrotv'
 addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
 
-YOUTUBE_CHANNEL_ID_1 = "UCUVnfQaEmCIhFZC5d_JniyQ"
-YOUTUBE_CHANNEL_ID_2 = "PLjnS472dZmYFlTGofe2Hzbsc9mAf5zEK9"
-YOUTUBE_CHANNEL_ID_3 = "PLV4e_YFAA9T7topw7Hcny9gvI--KAUkBB"
-YOUTUBE_CHANNEL_ID_4 = "PLV4e_YFAA9T4lz6DOTE4ZSd6gVcga6caf"
-YOUTUBE_CHANNEL_ID_5 = "PL093A0D4B558C61E5"
-YOUTUBE_CHANNEL_ID_6 = "PLB44A955104D61542"
-YOUTUBE_CHANNEL_ID_7 = "PLCQyVJaPXQ7XzLLgaKEPUXctixKQPu73V"
-YOUTUBE_CHANNEL_ID_8 = "PLbQ-gSLYQEc6IWgKJNOMUONgtNXdwVcDC"
-YOUTUBE_CHANNEL_ID_9 = "PL8ByfLs8i7KT9Swtj0uQe1Wm98kkFIocH"
-YOUTUBE_CHANNEL_ID_10 = "PLZQwwCu9Y8bduFA1jCUQwQKDGlCo68t8k"
+YOUTUBE_CHANNEL_ID_1 = "UC_24jKIAWs4f3nk21CGgVRg"
+YOUTUBE_CHANNEL_ID_2 = "PL3tf-8jUewlnWQ1cD5xaYjlmY8640BYVB"
+YOUTUBE_CHANNEL_ID_3 = ""
+YOUTUBE_CHANNEL_ID_4 = ""
+YOUTUBE_CHANNEL_ID_5 = ""
+YOUTUBE_CHANNEL_ID_6 = ""
+YOUTUBE_CHANNEL_ID_7 = ""
+YOUTUBE_CHANNEL_ID_8 = ""
+YOUTUBE_CHANNEL_ID_9 = ""
+YOUTUBE_CHANNEL_ID_10 = ""
 YOUTUBE_CHANNEL_ID_11 = "PLE72EBEB8564D1357"
-YOUTUBE_CHANNEL_ID_12 = "PLEBE1UGewOEXFZYzwPSwuSFza6k4QId8"
+YOUTUBE_CHANNEL_ID_12 = "PLySo2SlSHPSODlQTwnsqEyP9CcTMQpYg_"
 YOUTUBE_CHANNEL_ID_13 = "PLySo2SlSHPSPsMPvx3vXPmReAe05Vro9H"
 YOUTUBE_CHANNEL_ID_14 = "PLySo2SlSHPSMTwqoNnjALvrxbyhP5sPQ0"
 YOUTUBE_CHANNEL_ID_15 = "PL6fJmjt84zZhVlt_nTOeWQM8FCOEg4V4s"
@@ -56,27 +57,27 @@ def main_list(params):
 
     plugintools.add_item( 
         #action="", 
-        title="Classic Gaming Cartoons",
+        title="home",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_1+"/playlists/",
-        thumbnail="http://www.superluigibros.com/images/super_mario_bros_super_show_releases/mario_bros_mix.jpg",
-        fanart="https://i.ytimg.com/vi/_7mW3JM8dpE/maxresdefault.jpg",
-        info="watch classic gaming cartoons from mario bros. to captain n the games master",
+        thumbnail="http://www.ismokemag.co.uk/wp-content/uploads/2017/02/logo-retina.png",
+        fanart="http://www.ismokemag.co.uk/wp-content/uploads/2017/09/gg4-organic-10.jpg",
+        
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Games Master",
+        title="Stran Reviews",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_2+"/",
-        thumbnail="http://thetvdb.com/banners/posters/71472-2.jpg",
+        thumbnail="http://www.ismokemag.co.uk/wp-content/uploads/2017/09/gg4-organic-15.jpg",
         fanart="http://megagames.com/sites/default/files/game-content-images/gamesmaster.jpg",
         
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Bad Influence",
+        title="Bad Influence Season 01-04",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_3+"/",
-        thumbnail="http://thetvdb.com/banners/posters/96341-1.jpg",
+        thumbnail="http://vignette1.wikia.nocookie.net/magazinesfromthepast/images/3/3a/Bad_Influence_Issue_1.jpg/revision/latest?cb=20141128220822",
         fanart="http://vignette1.wikia.nocookie.net/magazinesfromthepast/images/3/3a/Bad_Influence_Issue_1.jpg/revision/latest?cb=20141128220822",
         folder=True )
 
@@ -89,14 +90,6 @@ def main_list(params):
         thumbnail="https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce619ce4b0d911b449a1d0/1333603993933/1000w/hitchcock4420121.jpeg",
         fanart="https://i.ytimg.com/vi/uRuzzzMODi8/maxresdefault.jpg",
         folder=True )  
-
-    plugintools.add_item( 
-        #action="", 
-        title="Video Game Nation",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
-        thumbnail="https://s-media-cache-ak0.pinimg.com/736x/e6/52/3f/e6523f23e24a0764c987f4f9bb81c743.jpg",
-        fanart="http://thetvdb.com/banners/fanart/original/301412-1.jpg",
-        folder=True ) 
     
     plugintools.add_item( 
         #action="", 
@@ -114,6 +107,13 @@ def main_list(params):
         fanart="https://mpgs.scdn3.secure.raxcdn.com/images/kcfinder/upload/image/NesWall.jpg",
         folder=True )   
            
+    plugintools.add_item( 
+        #action="", 
+        title="Video Game Nation",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
+        thumbnail="https://s-media-cache-ak0.pinimg.com/736x/e6/52/3f/e6523f23e24a0764c987f4f9bb81c743.jpg",
+        fanart="http://i.imgur.com/Gc4Xa.jpg",
+        folder=True ) 
         
     plugintools.add_item( 
         #action="", 
@@ -141,8 +141,8 @@ def main_list(params):
         
     plugintools.add_item( 
         #action="", 
-        title="NES Speed Runs",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_12+"/playlists",
+        title="Speed Runs",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_12+"/",
         thumbnail="http://s3.media.squarespace.com/production/544173/6277734/wp-content/uploads/2009/05/half-life-2.jpg",
         fanart="https://s-media-cache-ak0.pinimg.com/originals/61/af/35/61af351b7f5ebf11a79f29ff5c59ea86.jpg",
         folder=True )               
