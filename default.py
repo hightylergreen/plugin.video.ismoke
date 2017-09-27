@@ -68,7 +68,7 @@ def main_list(params):
         #action="", 
         title="Strain Reviews",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_2+"/",
-        thumbnail="http://www.ismokemag.co.uk/wp-content/uploads/2017/09/gg4-organic-15.jpg",
+        thumbnail="https://github.com/lefty420/media/blob/master/1.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
         
         folder=True )
@@ -77,7 +77,7 @@ def main_list(params):
         #action="", 
         title="Wake and Bake With Tyler Green",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_3+"/",
-        thumbnail="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+        thumbnail="https://github.com/lefty420/media/blob/master/4.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
         folder=True )
   
@@ -85,7 +85,7 @@ def main_list(params):
         #action="", 
         title="Vlogs and Updates",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
-       thumbnail="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+       thumbnail="https://github.com/lefty420/media/blob/master/5.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
         folder=True )
     
@@ -93,7 +93,7 @@ def main_list(params):
         #action="", 
         title="Uk Cannabis Clubs",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_5+"/",
-        thumbnail="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+        thumbnail="https://github.com/lefty420/media/blob/master/6.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
         folder=True )
         
@@ -101,7 +101,7 @@ def main_list(params):
         #action="", 
         title="Ismoke Bud Facts",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_6+"/",
-        thumbnail="http://www.ismokemag.co.uk/wp-content/uploads/2017/02/logo-retina.png",
+        thumbnail="https://github.com/lefty420/media/blob/master/6.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
         folder=True )   
 run()
