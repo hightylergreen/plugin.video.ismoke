@@ -29,11 +29,11 @@ YOUTUBE_CHANNEL_ID_7 = ""
 YOUTUBE_CHANNEL_ID_8 = ""
 YOUTUBE_CHANNEL_ID_9 = ""
 YOUTUBE_CHANNEL_ID_10 = ""
-YOUTUBE_CHANNEL_ID_11 = "PLE72EBEB8564D1357"
-YOUTUBE_CHANNEL_ID_12 = "PLySo2SlSHPSODlQTwnsqEyP9CcTMQpYg_"
-YOUTUBE_CHANNEL_ID_13 = "PLySo2SlSHPSPsMPvx3vXPmReAe05Vro9H"
-YOUTUBE_CHANNEL_ID_14 = "PLySo2SlSHPSMTwqoNnjALvrxbyhP5sPQ0"
-YOUTUBE_CHANNEL_ID_15 = "PL6fJmjt84zZhVlt_nTOeWQM8FCOEg4V4s"
+YOUTUBE_CHANNEL_ID_11 = ""
+YOUTUBE_CHANNEL_ID_12 = ""
+YOUTUBE_CHANNEL_ID_13 = ""
+YOUTUBE_CHANNEL_ID_14 = ""
+YOUTUBE_CHANNEL_ID_15 = ""
 
 
 # Entry point
@@ -57,7 +57,7 @@ def main_list(params):
 
     plugintools.add_item( 
         #action="", 
-        title="home",
+        title="All ISMOKE Videos",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_1+"/playlists/",
         thumbnail="http://www.ismokemag.co.uk/wp-content/uploads/2017/02/logo-retina.png",
         fanart="http://www.ismokemag.co.uk/wp-content/uploads/2017/09/gg4-organic-10.jpg",
@@ -83,7 +83,7 @@ def main_list(params):
   
     plugintools.add_item( 
         #action="", 
-        title="Vlogs and Updates",
+        title="Cannabis News",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
        thumbnail="https://github.com/lefty420/media/blob/master/5.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
