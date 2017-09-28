@@ -60,7 +60,7 @@ def main_list(params):
         title="All ISMOKE Videos",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_1+"/playlists/",
         thumbnail="http://www.ismokemag.co.uk/wp-content/uploads/2017/02/logo-retina.png",
-        fanart="http://www.ismokemag.co.uk/wp-content/uploads/2017/09/gg4-organic-10.jpg",
+        fanart="https://github.com/lefty420/media/raw/master/background.jpg",
         
         folder=True )
 
@@ -69,7 +69,7 @@ def main_list(params):
         title="Strain Reviews",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_2+"/",
         thumbnail="https://github.com/lefty420/media/blob/master/1.jpg?raw=true",
-        fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+        fanart="https://github.com/lefty420/media/raw/master/background.jpg",
         
         folder=True )
 
@@ -78,7 +78,7 @@ def main_list(params):
         title="Wake and Bake With Tyler Green",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_3+"/",
         thumbnail="https://github.com/lefty420/media/blob/master/4.jpg?raw=true",
-        fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+        fanart="https://github.com/lefty420/media/raw/master/background.jpg",
         folder=True )
   
     plugintools.add_item( 
@@ -86,7 +86,7 @@ def main_list(params):
         title="Cannabis News",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
        thumbnail="https://github.com/lefty420/media/blob/master/5.jpg?raw=true",
-        fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+        fanart="https://github.com/lefty420/media/raw/master/background.jpg",
         folder=True )
     
     plugintools.add_item( 
@@ -94,7 +94,7 @@ def main_list(params):
         title="Cannabis Events",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_7+"/",
         thumbnail="https://github.com/lefty420/media/blob/master/2.jpg?raw=true",
-        fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+        fanart="https://github.com/lefty420/media/raw/master/background.jpg",
         folder=True )
         
     plugintools.add_item( 
@@ -102,6 +102,6 @@ def main_list(params):
         title="Ismoke Bud Facts",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_6+"/",
         thumbnail="https://github.com/lefty420/media/blob/master/6.jpg?raw=true",
-        fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
+        fanart="https://github.com/lefty420/media/raw/master/background.jpg",
         folder=True )   
 run()
