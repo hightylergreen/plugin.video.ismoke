@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ismoke"
-	name="ISMOKE Tv"
+	name="ISMOKE TV"
 	version="1.0.0"
 	provider-name="Ismoke">
   <requires>
@@ -17,5 +17,12 @@
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
-  </extension>
+	<assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>1.jpg</screenshot>
+      <screenshot>2.jpg</screenshot>
+      <screenshot>3.jpg</screenshot>
+    </assets>
+    </extension>
 </addon>
