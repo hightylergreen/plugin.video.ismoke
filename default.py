@@ -93,7 +93,7 @@ def main_list(params):
         #action="", 
         title="Cannabis Events",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_7+"/",
-        thumbnail="https://github.com/lefty420/media/blob/master/6.jpg?raw=true",
+        thumbnail="https://github.com/lefty420/media/blob/master/2.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
         folder=True )
         
