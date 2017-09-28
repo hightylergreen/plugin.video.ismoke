@@ -25,7 +25,7 @@ YOUTUBE_CHANNEL_ID_3 = "PL3tf-8jUewll7lWLg23G7bhDq6lYEBKLH"
 YOUTUBE_CHANNEL_ID_4 = "PL3tf-8jUewlmIFw7oZxpa_QVFWOelkyzf"
 YOUTUBE_CHANNEL_ID_5 = "PL3tf-8jUewlkLQe9_NppdO7QI9VvgZ7cI"
 YOUTUBE_CHANNEL_ID_6 = "PL3tf-8jUewlmQFmrm_KTZ4JzgkDpvujMl"
-YOUTUBE_CHANNEL_ID_7 = ""
+YOUTUBE_CHANNEL_ID_7 = "PL3tf-8jUewlmPaBJ1x8DRasYN8q7Q6B97"
 YOUTUBE_CHANNEL_ID_8 = ""
 YOUTUBE_CHANNEL_ID_9 = ""
 YOUTUBE_CHANNEL_ID_10 = ""
@@ -91,8 +91,8 @@ def main_list(params):
     
     plugintools.add_item( 
         #action="", 
-        title="Uk Cannabis Clubs",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_5+"/",
+        title="Cannabis Events",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_7+"/",
         thumbnail="https://github.com/lefty420/media/blob/master/6.jpg?raw=true",
         fanart="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20776410_1788082307874573_2176504166901003467_o.jpg?oh=f54807e7743da98b0e662c88a4c34b3e&oe=5A82340C",
         folder=True )
